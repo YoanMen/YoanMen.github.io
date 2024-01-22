@@ -9,6 +9,8 @@
   --font-white: #E5E5E5;
   --lexend-font: 'Lexend', sans-serif;
   --roboto-font: 'Roboto', sans-serif;
+
+  --max-width: 1920px;
 }
 
 
@@ -56,12 +58,11 @@ strong {
   padding: 3px 6px;
   border-radius: 5px;
   background-color: var(--bg-color--black);
+  border: 1px solid transparent;
 }
 
 .button:hover {
-  border: 1px solid var(--border-color);
-  padding: 2px 5px;
-
+  border-color: var(--border-color);
 }
 
 
