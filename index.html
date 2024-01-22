@@ -7,10 +7,42 @@
   <meta name="description" content="">
   <title>Yoan Menard | portfolio</title>
   <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/nav/nav.css">
 </head>
 
 <body>
+  <header>
+    <nav class="menu">
+      <ul class="menu-list">
+        <div class="menu-list__marker" id="marker-menu"></div>
+        <li>
+          <a class="button menu-list__item" href="#"><span class="iconify" data-icon="mdi-information-outline"></span>
+            About</a>
+        </li>
+        <li>
+          <a class="button menu-list__item" href="#"><span class="iconify"
+              data-icon="mdi-book-open-blank-variant-outline"></span>Projects</a>
+        </li>
+        <li>
+          <a class="button menu-list__item" href="#"><span class="iconify"
+              data-icon="mdi-email-outline"></span>Contact</a>
+        </li>
+      </ul>
 
+      <div class="menu-right">
+        <div class="available">
+          <img class="available__icon" src="./assets/images/available.svg" alt="" srcset="">
+          <p class="available__text">available for job</p>
+        </div>
+        <button class="button available__btn" type="button"><span class="iconify"
+            data-icon="mdi-theme-light-dark"></span></button>
+      </div>
+    </nav>
+
+  </header>
+
+  <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <script src="./script/navigation-marker.js"></script>
 </body>
 
 </html>
