@@ -3,7 +3,7 @@ const items = document.querySelectorAll('.menu-list__item');
 
 
 function fitMarker(event) {
-  const clickedItem = event.target;
+  const clickedItem = event.currentTarget;
 
   marker.style.left = clickedItem.offsetLeft + 'px';
   marker.style.width = clickedItem.offsetWidth + 'px';
@@ -13,4 +13,6 @@ function fitMarker(event) {
 items.forEach(item => {
   item.addEventListener('click', fitMarker);
 });
+
+
 
