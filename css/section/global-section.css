@@ -1,0 +1,29 @@
+@import url(./projects.css);
+
+.section {
+  margin: 0 auto;
+  padding: 16px;
+
+}
+
+.section-container {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  border: var(--border);
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.container__title {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  color: white;
+  font-family: var(--roboto-font);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
