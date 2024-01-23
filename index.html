@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="./css/nav/nav.css">
   <link rel="stylesheet" href="./css/hero/hero.css">
   <link rel="stylesheet" href="./css/section/global-section.css">
-  <link rel="stylesheet" href="./css/section/contact-section.css">
 </head>
 
 <body>
@@ -105,37 +104,44 @@
         <article class="tab-container">
           <div class="tab__information">
             <h3 class="tab__name">Project Name</h3>
-            <p>We've combined the power of the Following feed with the For you feed so there’s
-              one place to discover
-              content on GitHub. There’s improved We've combined the power of the Following feed with the For you feed
-              so there’s one place to discover content on GitHub. There’s improved GitHub. There’s improved We've
-              combined the power of the Following feed with the For you feed
-              so there’s one place to discover content on GitHub. There’s improved GitHub. There’s improved We've
-              combined the power of the Following feed with the For you feed
-            </p>
-            <ul class="project__tech-list">
-              <li class="tech-list__item">
-                <div class="tech-list__icon"></div>
-                <label>Name</label>
-              </li>
-              <li class="tech-list__item">
-                <div class="tech-list__icon"></div>
-                <label>Name</label>
-              </li>
-              <li class="tech-list__item">
-                <div class="tech-list__icon"></div>
-                <label>Name</label>
-              </li>
-              <li class="tech-list__item">
-                <div class="tech-list__icon"></div>
-                <label>Name</label>
-              </li>
-              <li class="tech-list__item">
-                <div class="tech-list__icon"></div>
-                <label>Name</label>
-              </li>
-            </ul>
-
+            <div class="tab__desc">
+              <div>
+                <p>We've combined the power of the Following feed with the For you feed so there’s
+                  one place to discover
+                  content on GitHub. There’s improved We've combined the power of the Following feed with the For you
+                  feed
+                  so there’s one place to discover content on GitHub. There’s improved GitHub. There’s improved We've
+                  combined the power of the Following feed with the For you feed
+                  so there’s one place to discover content on GitHub. There’s improved GitHub. There’s improved We've
+                  combined the power of the Following feed with the For you feed
+                </p>
+                <ul class="project__tech-list">
+                  <li class="tech-list__item">
+                    <div class="tech-list__icon"></div>
+                    <label>Name</label>
+                  </li>
+                  <li class="tech-list__item">
+                    <div class="tech-list__icon"></div>
+                    <label>Name</label>
+                  </li>
+                  <li class="tech-list__item">
+                    <div class="tech-list__icon"></div>
+                    <label>Name</label>
+                  </li>
+                  <li class="tech-list__item">
+                    <div class="tech-list__icon"></div>
+                    <label>Name</label>
+                  </li>
+                  <li class="tech-list__item">
+                    <div class="tech-list__icon"></div>
+                    <label>Name</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab__icon ">
+                <span class="iconify " data-icon="mdi-chevron-down"></span>
+              </div>
+            </div>
 
             <div class="more-container ">
 
@@ -224,14 +230,20 @@
         <article class="tab-container">
           <div class="tab__information">
             <h3 class="tab__name tab__name--white">Blog name</h3>
-            <p>We've combined the power of the Following feed with the For you feed so there’s
-              one place to discover
-              content on GitHub. There’s improved We've combined the power of the Following feed with the For you feed
-              so there’s one place to discover content on GitHub. There’s improved GitHub. There’s improved We've
-              combined the power of the Following feed with the For you feed
-              so there’s one place to discover content on GitHub. There’s improved GitHub. There’s improved We've
-              combined the power of the Following feed with the For you feed
-            </p>
+            <div class="tab__desc">
+              <p>We've combined the power of the Following feed with the For you feed so there’s
+                one place to discover
+                content on GitHub. There’s improved We've combined the power of the Following feed with the For you feed
+                so there’s one place to discover content on GitHub. There’s improved GitHub. There’s improved We've
+                combined the power of the Following feed with the For you feed
+                so there’s one place to discover content on GitHub. There’s improved GitHub. There’s improved We've
+                combined the power of the Following feed with the For you feed
+              </p>
+              <div class="tab__icon">
+                <span class="iconify " data-icon="mdi-chevron-down"></span>
+              </div>
+            </div>
+
             <div class="more-container ">
               <hr>
               <div class="more-container__content more-container__content--column">
@@ -317,9 +329,35 @@
         </h2>
         <div>
           <form action="" class="form-contact">
-            <label class="d-flex--column" for="name">Name<input type="text" name="" id="name"></label>
+            <label class="form-contact__input" for="name">Name<input type="text" name="" id="name"></label>
+            <label class="form-contact__input" for="email">Email<input type="email" name="" id="email"></label>
+
+            <label class="form-contact__input" for="work-type">For <select name="work-type" id="work-type">
+                <option value="">Select a option</option>
+                <option value="">Creation of a site</option>
+                <option value="">Implement functionality</option>
+                <option value="">A job</option>
+                <option value="">Other</option>
+              </select>
+            </label>
+
+            <label class="form-contact__textarea for=" message">Message
+              <textarea name="" id="" rows="5" cols="80 " style="height: 248px;"></textarea>
+            </label>
+
+            <label class="form-contact__checkbox" for=""><input type="checkbox" name="" id="">
+              By submitting this form, I
+              agree to my personal data
+              being used to contact me. My information will not be used for any other purpose. *
+            </label>
+
+            <div class="form-contact__send">
+              <p for="">* Required field</p>
+              <a class="button " href="#"><span class="iconify" data-icon="mdi-send"></span>
+                Send</a>
+            </div>
           </form>
-          <div>
+          <div class="hidden-mobile">
 
           </div>
         </div>

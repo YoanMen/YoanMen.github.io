@@ -11,6 +11,7 @@
   --roboto-font: 'Roboto', sans-serif;
 
   --border: 1px solid var(--border-color);
+  --border-radius: 5px;
   --max-width: 1920px;
 }
 
@@ -41,7 +42,7 @@ a {
 code {
   padding: 16px;
   border: var(--border);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   background-color: #141a22;
 }
 
@@ -69,13 +70,65 @@ label {
   font-size: 1.2rem;
   color: white;
   font-family: var(--roboto-font);
+
 }
 
-input {
+input,
+textarea,
+select {
   background-color: var(--bg-color);
   height: 48px;
+  border-radius: var(--border-radius);
   border: var(--border);
+  color: white;
+  padding: 6px;
+  font-size: 1.2rem;
 }
+
+input[type="checkbox"] {
+  appearance: none;
+  cursor: pointer;
+  margin: 6px;
+  accent-color: var(--blue-color);
+  width: 1.5rem;
+  height: 1.5rem;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+input[type=checkbox]:checked {
+  content: "";
+
+  background-color: var(--blue-color);
+}
+
+input[type=checkbox]:checked:after {
+  content: "\2713";
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+
+  border-color: var(--blue-color);
+}
+
+select {
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+
 
 .d-flex {
   display: flex;
@@ -95,7 +148,7 @@ input {
   font-weight: 400;
 
   padding: 3px 6px;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   background-color: var(--bg-color--black);
   border: 1px solid transparent;
 
@@ -114,13 +167,9 @@ input {
 
 
 
-.border {
-  border: var(--border);
-  border-radius: 5px;
-}
 
 
-@media screen and (max-width: 572px) {
+@media screen and (max-width: 762px) {
 
   .hidden-mobile {
     display: none;
