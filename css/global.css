@@ -83,6 +83,12 @@ select {
   color: white;
   padding: 6px;
   font-size: 1.2rem;
+
+}
+
+textarea {
+  resize: none;
+
 }
 
 input[type="checkbox"] {

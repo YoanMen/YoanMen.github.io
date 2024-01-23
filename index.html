@@ -18,24 +18,25 @@
       <ul class="menu-list">
         <div class="menu-list__marker" id="marker-menu"></div>
         <li>
-          <a class="button menu-list__item" href="#test"><span class="iconify"
+          <a class="button menu-list__item" href="#about-section"><span class="iconify"
               data-icon="mdi-information-outline"></span>
             <span class="hidden-mobile">About</span>
           </a>
         </li>
         <li>
-          <a class="button menu-list__item " href="#"><span class="iconify"
+          <a class="button menu-list__item " href="#projects-section"><span class="iconify"
               data-icon="mdi-book-open-blank-variant-outline"></span>
             <span class="hidden-mobile">Projects</span> </a>
 
         </li>
         <li>
-          <a class="button menu-list__item" href="#"><span class="iconify" data-icon="mdi-post"></span>
+          <a class="button menu-list__item" href="#blog-section"><span class="iconify" data-icon="mdi-post"></span>
             <span class="hidden-mobile">Blog</span>
           </a>
         </li>
         <li>
-          <a class="button menu-list__item" href="#"><span class="iconify" data-icon="mdi-email-outline"></span>
+          <a class="button menu-list__item" href="#contact-section"><span class="iconify"
+              data-icon="mdi-email-outline"></span>
             <span class="hidden-mobile">Contact</span>
           </a>
         </li>
@@ -88,7 +89,11 @@
     <section class="section" id="about-section">
       <div class="section-container">
         <h2 class="container__title"><span class="iconify" data-icon="mdi-information-outline"></span>About</h2>
-        <p>We've combined the power of the Following feed with the For you feed so there’s one place to discover content
+        <p> We've combined the power of the Following feed with the For you feed so there’s one place to discover
+          content
+          on GitHub. There’s improved filtering so you can customize your feed exactly how you like it, and a shiny new
+          visual design. ✨We've combined the power of the Following feed with the For you feed so there’s one place to
+          discover content
           on GitHub. There’s improved filtering so you can customize your feed exactly how you like it, and a shiny new
           visual design. ✨</p>
       </div>
@@ -222,7 +227,7 @@
       </div>
     </section>
 
-    <section class="section" id="blog">
+    <section class="section" id="blog-section">
       <div class="section-container">
         <h2 class="container__title">
           <span class="iconify" data-icon="mdi-blog"></span>Blog
@@ -322,17 +327,17 @@
     </section>
 
 
-    <section class="section">
+    <section class="section" id="contact-section">
       <div class="section-container">
         <h2 class="container__title">
           <span class="iconify" data-icon="mdi-email-outline"></span>Contact
         </h2>
-        <div>
-          <form action="" class="form-contact">
-            <label class="form-contact__input" for="name">Name<input type="text" name="" id="name"></label>
-            <label class="form-contact__input" for="email">Email<input type="email" name="" id="email"></label>
+        <div class="contact__container">
+          <form action="" class="contact__form">
+            <label class="form__input" for="name">Name *<input type="text" name="" id="name"></label>
+            <label class="form__input" for="email">Email *<input type="email" name="" id="email"></label>
 
-            <label class="form-contact__input" for="work-type">For <select name="work-type" id="work-type">
+            <label class="form__input" for="work-type">For *<select name="work-type" id="work-type">
                 <option value="">Select a option</option>
                 <option value="">Creation of a site</option>
                 <option value="">Implement functionality</option>
@@ -341,28 +346,47 @@
               </select>
             </label>
 
-            <label class="form-contact__textarea for=" message">Message
+            <label class="form__textarea" for="message">Message *
               <textarea name="" id="" rows="5" cols="80 " style="height: 248px;"></textarea>
             </label>
 
-            <label class="form-contact__checkbox" for=""><input type="checkbox" name="" id="">
+            <label class="form__checkbox" for="checkbox"><input type="checkbox" name="checkbox" id="checkbox">
               By submitting this form, I
               agree to my personal data
               being used to contact me. My information will not be used for any other purpose. *
             </label>
 
-            <div class="form-contact__send">
+            <div class="form__send">
               <p for="">* Required field</p>
               <a class="button " href="#"><span class="iconify" data-icon="mdi-send"></span>
                 Send</a>
             </div>
           </form>
-          <div class="hidden-mobile">
-
+          <div class="contact__right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex
+              ea.</p>
+            <ul class="social-links">
+              <li>
+                <a class="button " href="#"><span class="iconify" data-icon="mdi-github"></span>
+                  Github</a>
+              </li>
+              <li>
+                <a class="button " href="#"><span class="iconify" data-icon="mdi-linkedin"></span>
+                  Linkedin</a>
+              </li>
+              <li>
+                <a class="button " href="#"><span class="iconify" data-icon="mdi-twitter"></span>
+                  Twitter</a>
+              </li>
+            </ul>
+            <div class="contact__bg-img">
+              <span class="iconify " data-icon="mdi-email-edit"></span>
+            </div>
           </div>
         </div>
       </div>
-
     </section>
   </main>
 

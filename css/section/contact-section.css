@@ -1,15 +1,32 @@
-.form-contact {
+.contact__container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+
+.contact__form {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  min-width: 50%;
   border: var(--border);
   border-radius: var(--border-radius);
   padding: 0 14px;
   margin-top: 24px;
 }
 
+.contact__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-width: 50%;
 
-.form-contact__input {
+
+}
+
+
+
+.form__input {
 
   display: flex;
   flex-direction: column;
@@ -18,44 +35,72 @@
 
 }
 
-.form-contact__textarea {
+.form__textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 300px;
+  gap: 16px;
+  padding: 16px 0;
 
   width: 100%;
 }
 
-.form-contact__checkbox {
+.form__checkbox {
   display: flex;
   flex-direction: row;
   gap: 20px;
   padding: 6px;
   color: var(--font-white);
   font-family: var(--lexend-font);
+  justify-content: space-between;
   font-weight: 300;
   font-size: 1rem;
 }
 
-.form-contact__send {
+.form__send {
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 16px 0;
+  gap: 6px;
 }
 
 
 
+.contact__bg-img {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30vw;
+
+  opacity: 8%;
+}
+
+
+@media screen and (min-width: 1080px) {
+  .contact__bg-img {
+    font-size: 30rem;
+  }
+}
+
 
 @media screen and (max-width: 762px) {
 
-  .form-contact__send {
+  .contact__container {
+    flex-direction: column-reverse;
+  }
+
+  .contact__bg-img {
+    display: none;
+  }
+
+  .form__send {
     flex-direction: column;
   }
 
-  .form-contact__send a {
+  .form__send a {
     justify-content: center;
     height: 40px;
   }
