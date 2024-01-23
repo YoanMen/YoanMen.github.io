@@ -1,10 +1,21 @@
 const projects = document.querySelectorAll('.tab-container');
+const buttons = document.querySelectorAll('.button');
 
+
+buttons.forEach(element => {
+
+
+  
+  element.addEventListener('click', (event) => {
+    event.stopPropagation();
+  })
+
+
+});
 
 projects.forEach(element => {
   element.addEventListener('click', () => {
 
-    console.log(element);
     const project = element.querySelector('.more-container');
     const arrowIcon = element.querySelector('.tab__icon');
     if (project.classList.contains('more-container--animation')) {
@@ -16,6 +27,7 @@ projects.forEach(element => {
       project.classList.add('more-container--animation');
       arrowIcon.classList.add('tab__icon--animation')
     }
+
 
 
   });

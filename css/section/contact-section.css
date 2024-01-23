@@ -79,11 +79,17 @@
 }
 
 
+.form__button {
+  font-size: 1.2rem;
+}
+
+
 @media screen and (min-width: 1080px) {
   .contact__bg-img {
     font-size: 30rem;
   }
 }
+
 
 
 @media screen and (max-width: 762px) {
@@ -100,8 +106,9 @@
     flex-direction: column;
   }
 
-  .form__send a {
+  .form__button {
+    height: 60px;
     justify-content: center;
-    height: 40px;
+
   }
 }

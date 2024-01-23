@@ -11,7 +11,7 @@ items.forEach(element => {
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {
-      const offset = window.innerHeight / 2 - 100;
+      const offset = window.innerHeight / 2 - 50;
 
       window.scrollTo({
         top: targetElement.offsetTop - offset,

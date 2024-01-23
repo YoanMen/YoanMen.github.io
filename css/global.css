@@ -14,14 +14,20 @@
   --border-radius: 5px;
   --max-width: 1920px;
 
-
   --flutter-color: #2eb2ee;
   --dart-color: #00b4ab;
+  --html-color: #da5e3fff;
+  --css-color: #e34c26ff;
+  --php-color: #4f5d95ff;
+  --js-color: #f1e05aff;
 
 }
 
 
-
+main {
+  width: 80%;
+  margin: 0 auto;
+}
 
 * {
   box-sizing: border-box;
@@ -97,6 +103,8 @@ textarea {
   resize: none;
 
 }
+
+
 
 input[type="checkbox"] {
   appearance: none;
@@ -187,4 +195,9 @@ select {
   .hidden-mobile {
     display: none;
   }
+
+  main {
+    width: 100%;
+  }
+
 }
