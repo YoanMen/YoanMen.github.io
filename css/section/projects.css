@@ -12,6 +12,12 @@
   align-items: center;
   padding-right: 6px;
 
+
+}
+
+.tech-list__item label {
+  font-size: 0.9rem;
+  color: var(--font-white);
 }
 
 .tech-list__icon {
