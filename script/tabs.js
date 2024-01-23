@@ -4,6 +4,7 @@ const projects = document.querySelectorAll('.tab-container');
 projects.forEach(element => {
   element.addEventListener('click', () => {
 
+    console.log(element);
     const project = element.querySelector('.more-container');
     const arrowIcon = element.querySelector('.tab__icon');
     if (project.classList.contains('more-container--animation')) {

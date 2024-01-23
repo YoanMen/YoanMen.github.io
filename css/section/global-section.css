@@ -50,6 +50,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
 }
 
 .tab__icon {
@@ -109,9 +110,10 @@
 }
 
 .more-container__content--img {
-  height: 480px;
   object-fit: cover;
   margin: auto auto;
+  max-height: 512px;
+
 }
 
 
@@ -136,11 +138,7 @@
 
   }
 
-  .more-container__content--img {
-    height: 100%;
-    width: 100%;
-    border-radius: var(--border-radius);
-  }
+
 }
 
 

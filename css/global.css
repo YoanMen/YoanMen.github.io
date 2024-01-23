@@ -13,7 +13,14 @@
   --border: 1px solid var(--border-color);
   --border-radius: 5px;
   --max-width: 1920px;
+
+
+  --flutter-color: #2eb2ee;
+  --dart-color: #00b4ab;
+
 }
+
+
 
 
 * {
