@@ -38,6 +38,13 @@ a {
   color: white;
 }
 
+code {
+  padding: 16px;
+  border: var(--border);
+  border-radius: 5px;
+  background-color: #141a22;
+}
+
 body {
   background-color: var(--bg-color);
 }
@@ -56,6 +63,28 @@ strong {
 hr {
   border: var(--border);
   margin: 16px 32px;
+}
+
+label {
+  font-size: 1.2rem;
+  color: white;
+  font-family: var(--roboto-font);
+}
+
+input {
+  background-color: var(--bg-color);
+  height: 48px;
+  border: var(--border);
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.d-flex--column {
+  display: flex;
+  flex-direction: column;
 }
 
 .button {
