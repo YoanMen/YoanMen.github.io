@@ -1,0 +1,42 @@
+{
+  "about": {
+    "content": "My journey into development began with the desire to create my own video games using platforms such as Unreal Engine, Unity, and even Godot. Gradually, my interest shifted towards mobile development with Flutter. I embarked on a self-taught learning journey, relying on resources like YouTube and online courses. Realizing that software development was truly my passion, I made the decision to resign from my job in fast food to fully dedicate myself to learning code. Currently, I am enrolled in a training program to obtain the title of Web and Mobile Web Developer (DWWM). ✨"
+  },
+  "projects": [
+    {
+      "title": "Projet 1",
+      "description": "desc",
+      "content": "Description du  projet 1",
+      "img": [
+        "https://private-user-images.githubusercontent.com/114339661/254597433-663adbd7-d342-4a07-9e09-718b4e966db2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNDQ4NjksIm5iZiI6MTcwNjA0NDU2OSwicGF0aCI6Ii8xMTQzMzk2NjEvMjU0NTk3NDMzLTY2M2FkYmQ3LWQzNDItNGEwNy05ZTA5LTcxOGI0ZTk2NmRiMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyM1QyMTE2MDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YzE0NmE4ZGJjNGY5MjczMDJmM2Q3MjliMzdiNTFhNGIxZjg4YmI5NjIyYzYyMjJkZTJiMjdhMzZiMjI1M2YwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.RGodx82pa4-UFL9SBFmZiLEyngZJe2auzra4N_Pxiks"
+      ],
+      "tech": [
+        "flutter",
+        "dart"
+      ],
+      "links": {
+        "github": "https://example.com/project",
+        "android": "",
+        "appStore": "https://example.com/project",
+        "external": ""
+      }
+    },
+    {
+      "title": "Projet 2",
+      "description": "Description du projet 2",
+      "link": "https://example.com/project2"
+    }
+  ],
+  "Blog": [
+    {
+      "title": "Blog 1",
+      "description": "Description du projet 1",
+      "link": "https://example.com/project1"
+    },
+    {
+      "title": "Blog 2",
+      "description": "Description du projet 2",
+      "link": "https://example.com/project2"
+    }
+  ]
+}

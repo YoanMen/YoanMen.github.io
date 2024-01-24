@@ -41,14 +41,7 @@
 }
 
 
-.social-links {
-  padding-top: 18px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 8px;
 
-}
 
 @media screen and (max-width: 572px) {
   .hero {

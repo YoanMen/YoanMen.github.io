@@ -21,6 +21,9 @@
   --php-color: #4f5d95ff;
   --js-color: #f1e05aff;
 
+
+
+
 }
 
 
@@ -187,7 +190,14 @@ select {
 }
 
 
+.social-links {
+  padding: 18px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
 
+}
 
 
 @media screen and (max-width: 762px) {

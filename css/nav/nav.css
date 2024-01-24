@@ -56,19 +56,6 @@
   width: min(25vw, 250px);
 }
 
-.available__icon {
-
-  height: 16px;
-  width: 16px;
-  transform: translateY(2px);
-}
-
-.available__text {
-  color: var(--font-white);
-  font-weight: 400;
-
-}
-
-.available__btn {
+.theme__btn {
   font-size: 1.4rem;
 }
