@@ -211,21 +211,6 @@ select {
 
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: white;
-    --bg-color--secondary: #f6f8faff;
-    --border-color: #dae0e6ff;
-    --blue-color: #2276F5;
-    --font-color--secondary: #656d76ff;
-    --font-color: black;
-    --color-link: #2276F5;
-  }
-
-  .background--blue {
-    color: white;
-  }
-}
 
 
 .light-mode {
