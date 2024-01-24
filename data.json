@@ -4,9 +4,26 @@
   },
   "projects": [
     {
-      "title": "Projet 1",
-      "description": "desc",
-      "content": "Description du  projet 1",
+      "title": "My Portfolio  ",
+      "description": "After three months of training I decided to create my own portfolio, the one on which you are reading this.",
+      "content": "In order to find an internship during my training, I needed a website to showcase my work. So, I developed this website by creating its mockup via Figma.<br><br>The goal was to create a simple yet elegant interface. I drew inspiration from GitHub to establish a connection with the programming community. I used JavaScript to make my site more dynamic by adding animations, the menu, and tab arrows for example.<br><br> To simplify maintenance, all my projects, blog articles, and the \"about\" section are retrieved from a JSON file that contains all the information to be displayed. Everything is managed by JavaScript for dynamic rendering.",
+      "img": [],
+      "tech": [
+        "html",
+        "css",
+        "js"
+      ],
+      "links": {
+        "github": "https://github.com/YoanMen/Portfolio",
+        "android": "",
+        "appStore": "",
+        "external": ""
+      }
+    },
+    {
+      "title": "CinéRoye",
+      "description": "A Flutter application that retrieves films showing in my city by scraping data from a website",
+      "content": "The idea behind this application was to learn how to scrape data from the internet and display it on a landing page. We can browse through the currently showing movies to see the showtimes and their summaries.",
       "img": [
         "https://private-user-images.githubusercontent.com/114339661/254597433-663adbd7-d342-4a07-9e09-718b4e966db2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNDQ4NjksIm5iZiI6MTcwNjA0NDU2OSwicGF0aCI6Ii8xMTQzMzk2NjEvMjU0NTk3NDMzLTY2M2FkYmQ3LWQzNDItNGEwNy05ZTA5LTcxOGI0ZTk2NmRiMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyM1QyMTE2MDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YzE0NmE4ZGJjNGY5MjczMDJmM2Q3MjliMzdiNTFhNGIxZjg4YmI5NjIyYzYyMjJkZTJiMjdhMzZiMjI1M2YwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.RGodx82pa4-UFL9SBFmZiLEyngZJe2auzra4N_Pxiks"
       ],
@@ -15,28 +32,57 @@
         "dart"
       ],
       "links": {
-        "github": "https://example.com/project",
+        "github": "https://github.com/YoanMen/CineRoye",
         "android": "",
-        "appStore": "https://example.com/project",
+        "appStore": "",
         "external": ""
       }
     },
     {
-      "title": "Projet 2",
-      "description": "Description du projet 2",
-      "link": "https://example.com/project2"
+      "title": "Dice Game Javascript",
+      "description": "An exercise to make a game using Javascript",
+      "content": "During my training, in an exercise, we were asked to create a dice game. I used JavaScript for the game mechanics and implemented animations to make the game more enjoyable.",
+      "img": [
+        "https://raw.githubusercontent.com/YoanMen/Dice-game-JS/main/screenshot/screen.png"
+      ],
+      "tech": [
+        "html",
+        "css",
+        "js"
+      ],
+      "links": {
+        "github": "https://github.com/YoanMen/Dice-game-JS",
+        "android": "",
+        "appStore": "",
+        "external": "https://yoanmen.github.io/Dice-game-JS/"
+      }
+    },
+    {
+      "title": "Santa Claus Website",
+      "description": "During my training, we were challenged to create a site for Santa Claus.",
+      "content": "After a month of training, we were offered to create a website for Santa Claus. I took on the challenge to learn more about creating a website with PHP. It was very enriching, and I learned a lot during this exercise.<br><br> Unfortunately, I didn't finish it, but I am satisfied with the experience.",
+      "img": [
+        "https://raw.githubusercontent.com/YoanMen/SantaClaus-Website/main/screenshots/Capture%20d%E2%80%99%C3%A9cran%202024-01-15%20%C3%A0%2018.42.23.png"
+      ],
+      "tech": [
+        "html",
+        "css",
+        "js",
+        "php"
+      ],
+      "links": {
+        "github": "https://github.com/YoanMen/SantaClaus-Website",
+        "android": "",
+        "appStore": "",
+        "external": ""
+      }
     }
   ],
   "Blog": [
     {
-      "title": "Blog 1",
-      "description": "Description du projet 1",
-      "link": "https://example.com/project1"
-    },
-    {
-      "title": "Blog 2",
-      "description": "Description du projet 2",
-      "link": "https://example.com/project2"
+      "title": "",
+      "description": "",
+      "content": ""
     }
   ]
 }

@@ -10,8 +10,9 @@ const techColor = {
   'js': '#f1e05aff'
 }
 
-const sectionContainer = document.getElementById('projects-section').children[0];
+const sectionProjects = document.getElementById('projects-section').children[0];
 const sectionAbout = document.getElementById('about-section').children[0].children[1]
+const sectionBlog = document.getElementById('blog-section').children[0];
 
 async function getJson() {
 
@@ -27,6 +28,7 @@ async function getJson() {
     createProject(project);
   }
   for (const blog of data['Blog']) {
+
     createBlog(blog)
   }
 }
@@ -132,7 +134,7 @@ function createProject(data) {
   const article = document.createElement('article');
 
   article.classList.add('tab-container');
-  sectionContainer.appendChild(article);
+  sectionProjects.appendChild(article);
 
   const content = `
                 <div class="tab__information">
@@ -166,9 +168,38 @@ function createProject(data) {
   `
   article.innerHTML = content;
 
-  console.log("Create projetcs")
 }
 
 
 function createBlog(data) {
+  if (data['title'] == '') {
+    return;
+  }
+  const article = document.createElement('article');
+
+  article.classList.add('tab-container');
+  sectionBlog.appendChild(article);
+
+  const content = `
+                  <div class="tab__information">
+                  <h3 class="tab__name tab__name--white">${data['title']}</h3>
+                  <div class="tab__desc">
+                    <p>${data['description']}
+                    </p>
+                    <div class="tab__icon">
+                      <span class="iconify " data-icon="mdi-chevron-down"></span>
+                    </div>
+                  </div>
+                  <div class="more-container ">
+                    <hr>
+                    <div class="more-container__content ">
+                      <p>
+                      ${data['content']}                      
+                      </p>
+                    </div>
+                  </div>
+                </div>`
+
+
+  article.innerHTML = content;
 }

@@ -59,3 +59,9 @@
 .theme__btn {
   font-size: 1.4rem;
 }
+
+@media screen and (max-width: 762px) {
+  .menu-list__item {
+    font-size: 1.5rem;
+  }
+}
