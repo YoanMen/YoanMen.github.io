@@ -21,7 +21,7 @@
   flex-direction: row;
   align-items: center;
   gap: 6px;
-  color: white;
+  color: var(--font-color);
   font-family: var(--roboto-font);
   font-size: 1.4rem;
   font-style: normal;
@@ -40,7 +40,7 @@
 }
 
 .tab__name--white {
-  color: white;
+  color: var(--font-color);
 }
 
 .tab__desc {
@@ -81,7 +81,7 @@
   flex-direction: column;
   width: 100%;
   padding: 6px;
-  color: var(--font-white);
+  color: var(--font-color--secondary);
   font-weight: 300;
 }
 

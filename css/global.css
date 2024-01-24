@@ -3,16 +3,18 @@
 
 :root {
   --bg-color: #0D1117;
-  --bg-color--black: #010409;
+  --bg-color--secondary: #010409;
   --border-color: #30363D;
   --blue-color: #2276F5;
-  --font-white: #E5E5E5;
+  --font-color--secondary: #E5E5E5;
+  --font-color: white;
+  --span-text: var(--font-color);
+  --color-link: #2276F5;
   --lexend-font: 'Lexend', sans-serif;
   --roboto-font: 'Roboto', sans-serif;
 
   --border: 1px solid var(--border-color);
   --border-radius: 5px;
-  --max-width: 1920px;
 
   --flutter-color: #2eb2ee;
   --dart-color: #00b4ab;
@@ -20,10 +22,6 @@
   --css-color: #e34c26ff;
   --php-color: #4f5d95ff;
   --js-color: #f1e05aff;
-
-
-
-
 }
 
 
@@ -45,14 +43,14 @@ ul {
 a,
 p {
   font-family: var(--lexend-font);
-  color: var(--font-white);
+  color: var(--font-color--secondary);
   font-weight: 300;
 
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--color-link);
 }
 
 code {
@@ -73,7 +71,7 @@ button {
 }
 
 strong {
-  color: white;
+  color: var(--font-color);
 
 }
 
@@ -84,7 +82,7 @@ hr {
 
 label {
   font-size: 1.2rem;
-  color: white;
+  color: var(--font-color);
   font-family: var(--roboto-font);
 
 }
@@ -96,7 +94,7 @@ select {
   height: 48px;
   border-radius: var(--border-radius);
   border: var(--border);
-  color: white;
+  color: var(--font-color);
   padding: 6px;
   font-size: 1.2rem;
 
@@ -168,12 +166,12 @@ select {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: white;
+  color: var(--font-color);
   font-weight: 400;
 
   padding: 3px 6px;
   border-radius: var(--border-radius);
-  background-color: var(--bg-color--black);
+  background-color: var(--bg-color--secondary);
   border: 1px solid transparent;
 
 }
@@ -187,6 +185,7 @@ select {
 .background--blue {
   padding: 0 6px;
   background-color: var(--blue-color);
+  color: var(--span-text);
 }
 
 
@@ -210,4 +209,32 @@ select {
     width: 100%;
   }
 
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: white;
+    --bg-color--secondary: #f6f8faff;
+    --border-color: #dae0e6ff;
+    --blue-color: #2276F5;
+    --font-color--secondary: #656d76ff;
+    --font-color: black;
+    --color-link: #2276F5;
+  }
+
+  .background--blue {
+    color: white;
+  }
+}
+
+
+.light-mode {
+  --bg-color: white;
+  --bg-color--secondary: #f6f8faff;
+  --border-color: #dae0e6ff;
+  --blue-color: #2276F5;
+  --font-color--secondary: #656d76ff;
+  --font-color: black;
+  --color-link: #2276F5;
+  --span-text: white;
 }

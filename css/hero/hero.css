@@ -26,7 +26,7 @@
 .hero__title {
   display: flex;
   align-items: center;
-  color: white;
+  color: var(--font-color);
   font-size: 8rem;
   font-weight: 400;
   font-family: var(--roboto-font);
