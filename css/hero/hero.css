@@ -28,7 +28,7 @@
   align-items: center;
   color: var(--font-color);
   font-size: 8rem;
-  font-weight: 400;
+  font-weight: bold;
   font-family: var(--roboto-font);
 }
 

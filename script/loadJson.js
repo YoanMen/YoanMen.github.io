@@ -24,10 +24,10 @@ async function getJson() {
 
   sectionAbout.innerHTML = data['about']['content'];
 
-  for (const project of data['projects']) {
+  for (const project of data['projects'].reverse()) {
     createProject(project);
   }
-  for (const blog of data['Blog']) {
+  for (const blog of data['Blog'].reverse()) {
 
     createBlog(blog)
   }
@@ -63,7 +63,7 @@ function setImg(data) {
       img += `
       <img class="more-container__content--img"
       src="${element}"
-      alt="">
+      alt="image showing a project screen" loading="lazy">
       `
     });
   }

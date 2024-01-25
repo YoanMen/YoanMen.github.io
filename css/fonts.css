@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto/Roboto-Medium.ttf  ");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto/Roboto-Light.ttf");
+  font-weight: 200;
+}
+
+
+@font-face {
+  font-family: 'Lexend';
+  src: url("../assets/fonts/Lexend/Lexend-VariableFont_wght.ttf");
+
+}
