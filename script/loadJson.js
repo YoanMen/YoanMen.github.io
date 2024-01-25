@@ -63,7 +63,7 @@ function setImg(data) {
       img += `
       <img class="more-container__content--img"
       src="${element}"
-      alt="image showing a project screen" loading="lazy">
+      alt="image showing a project screen">
       `
     });
   }
