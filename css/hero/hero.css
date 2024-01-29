@@ -15,7 +15,13 @@
 .hero__img {
   width: 512px;
   margin: 0 auto;
+  opacity: 0;
+}
+
+.hero__img--animate {
   animation: showImage 0.1s linear;
+  opacity: 1;
+
 }
 
 
